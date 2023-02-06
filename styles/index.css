@@ -1,3 +1,155 @@
-h1 {
-    color: red;
+
+img {
+    margin-right: 0;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242, 241, 241);
+}
+
+section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.60)), url("../images/skyblock_background.jpg");
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.skyblock-introduction {
+    text-align: center;
+}
+
+.skyblock-introduction .content {
+    position: absolute;
+}
+
+.skyblock-introduction .introduction h1 {
+    font-size: calc(4vw + 4vh);
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    height: 6vh;
+}
+
+.skyblock-introduction .introduction p {
+    font-size: calc(2vw + 2vh);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+}
+
+.skyblock-introduction .introduction span {
+    color: rgb(96, 1, 1)
+}
+
+.skyblock-introduction .buttons {
+    font-size: calc(4vw + 4vh);
+    margin-top: 15vh;
+}
+
+.skyblock-introduction .buttons a {
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 20%;
+    border: 3px solid white;
+}
+
+.skyblock-game-info {
+    text-align: center;
+}
+
+.skyblock-game-info {
+    margin-top: 10vh;
+}
+
+.skyblock-game-info .extra-info h1 {
+    font-size: calc(2.2vw + 2.2vh);
+    font-family: Serif, garamond;
+    font-weight: 100;
+    height: 3vh;
+}
+
+.skyblock-game-info .extra-info p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: calc(1.1vw + 1.1vh);
+    width: 70%;
+    margin-left: 15vw;
+    font-weight: 100;
+    color: gray;
+}
+
+.points-info {
+    height: 40vh;
+    width: 90%;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.points-info .point {
+    width: 25%;
+}
+
+.points-info .point img {
+    width: 60%;
+}
+
+.point .image, .content{ 
+    float: left;
+}
+
+.point {
+    margin-left: 5vw;
+    float: left;
+    padding-right: 15vw;
+    padding-bottom: 25vh;
+}
+
+.point .image {
+    width: 20%;
+    padding: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border: 1px solid rgb(166, 165, 165);
+    border-radius: 100%;
+    margin-right: 0;
+
+}
+
+.point .content {
+    margin-left: 8vw;
+    float: left;
+    position: absolute;
+    margin-bottom: 10vh;
+    width: 18%;
+    text-align: left;
+}
+
+
+.point .content h1 {
+    font-size: calc(1.1vw + 1.1vh);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 100;
+}
+
+.point .content p {
+    font-size: calc(0.7vw + 0.7vh);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(132, 131, 131);
+}
+
+
